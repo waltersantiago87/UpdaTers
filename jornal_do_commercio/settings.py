@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'jornal_do_commercio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd55n2cg1j8ke21',
+        'USER': 'u8as8j10114a46',
+        'PASSWORD': 'p9b4cba228d4dda2000f3579ff793ff2bd9a847179ee457dc85a3732780e069d5',
+        'HOST': 'cer3tutrbi7n1t.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
@@ -126,4 +130,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
-
